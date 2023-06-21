@@ -179,16 +179,9 @@ statNamesExceptHP=['atk','def','spa','spd','spe'];this.
 
 pokeballs=null;this.
 
-resourcePrefix=function(){var _window$document,_window$document$loca;
-var prefix='';
-if(((_window$document=window.document)==null?void 0:(_window$document$loca=_window$document.location)==null?void 0:_window$document$loca.protocol)!=='http:')prefix='https:';
-return prefix+"//"+(window.Config?Config.routes.client:'play.pokemonshowdown.com')+"/";
-}();this.
+resourcePrefix='https://github.com/aurawriter/AuroraClientAssets/tree/main/play.pokemonshowdown.com/sprites/'
 
-fxPrefix=function(){var _window$document2,_window$document2$loc;
-var protocol=((_window$document2=window.document)==null?void 0:(_window$document2$loc=_window$document2.location)==null?void 0:_window$document2$loc.protocol)!=='http:'?'https:':'';
-return protocol+"//"+(window.Config?Config.routes.client:'play.pokemonshowdown.com')+"/fx/";
-}();this.
+fxPrefix='https://github.com/aurawriter/AuroraClientAssets/tree/main/play.pokemonshowdown.com/fx/'
 
 loadedSpriteData={xy:1,bw:0};this.
 moddedDexes={};this.
