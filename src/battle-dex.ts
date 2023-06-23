@@ -179,7 +179,7 @@ const Dex = new class implements ModdedDex {
 
 	pokeballs: string[] | null = null;
 
-	resourcePrefix='https://github.com/aurawriter/AuroraClientAssets/tree/main/play.pokemonshowdown.com/sprites/';
+	resourcePrefix='https://github.com/aurawriter/AuroraClientAssets/tree/main/play.pokemonshowdown.com/';
 
 	fxPrefix='https://github.com/aurawriter/AuroraClientAssets/tree/main/play.pokemonshowdown.com/fx/';
 
